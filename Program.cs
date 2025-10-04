@@ -223,6 +223,14 @@ namespace Laba3
                 Console.WriteLine("Запомни: всего одна ошибка и ты ошибся.");
             }
 
+
+            //Задание 6
+            Console.Write("Введи число: ");
+            int a = int.Parse(Console.ReadLine());
+            for (int i = 0; i < a + 1; i++)
+            {
+                Console.WriteLine($"Квадрат числа {i} равен {i * i}");
+            }
         }
     }
 }
