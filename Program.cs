@@ -231,6 +231,16 @@ namespace Laba3
             {
                 Console.WriteLine($"Квадрат числа {i} равен {i * i}");
             }
+
+            //Задание 7
+            Console.Write("Напиши предложение: ");
+            string b = Console.ReadLine();
+            Console.Write("Введи число: ");
+            int a = int.Parse(Console.ReadLine());
+            for (int i = 0; i < a; i++)
+            {
+                Console.WriteLine(b);
+            }
         }
     }
 }
