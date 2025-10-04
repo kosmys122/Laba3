@@ -217,7 +217,11 @@ namespace Laba3
             {
                 Console.WriteLine($"5 * {i} = {5 * i}");
             }
-
+            //Задание 5
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Запомни: всего одна ошибка и ты ошибся.");
+            }
 
         }
     }
