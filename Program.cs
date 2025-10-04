@@ -179,6 +179,20 @@ namespace Laba3
             //        break;
             //}
 
+            //Задание 1
+            Lignh a = Lignh.Yellow;
+            switch (a)
+            {
+                case Lignh.Red:
+                    Console.WriteLine("Состояние светофора Red следующий GREEN");
+                    break;
+                case Lignh.Yellow:
+                    Console.WriteLine("Состояние светофора Yellow следующий Red");
+                    break;
+                case Lignh.Green:
+                    Console.WriteLine("Состояние светофора Green следующий Yellow");
+                    break;
+            }
 
         }
     }
