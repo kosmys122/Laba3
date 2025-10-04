@@ -193,6 +193,20 @@ namespace Laba3
                     Console.WriteLine("Состояние светофора Green следующий Yellow");
                     break;
             }
+            //Задание 2
+            Status a = Status.New;
+            switch (a)
+            {
+                case Status.New:
+                case Status.Processing:
+                    Console.WriteLine("Заказ можно отменить");
+                    break;
+                default:
+                    Console.WriteLine("Заказ нельзя отменить");
+                    break;
+            }
+
+
 
         }
     }
