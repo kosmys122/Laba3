@@ -241,6 +241,23 @@ namespace Laba3
             {
                 Console.WriteLine(b);
             }
+            //Задание 8
+            bool b = true;
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("Число= ");
+                int a = int.Parse(Console.ReadLine());
+                if (a % 2 != 0)
+                {
+                    b = false;
+                }
+            }
+            if (b == true)
+            {
+                Console.WriteLine("YES");
+            }
+            else
+                Console.WriteLine("No");
         }
     }
 }
