@@ -205,7 +205,13 @@ namespace Laba3
                     Console.WriteLine("Заказ нельзя отменить");
                     break;
             }
-
+            //Задание 3
+            int a = 10;
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(a);
+                a = a - 1;
+            }
 
 
         }
