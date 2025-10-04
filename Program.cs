@@ -258,6 +258,28 @@ namespace Laba3
             }
             else
                 Console.WriteLine("No");
+            //Задание 9
+            Console.WriteLine("Добро пожаловать на стрельбище!");
+            Console.WriteLine("Введите 'Стоп', чтобы завершить стрельбу.");
+            int a = 0;
+            while (true)
+            {
+                Console.WriteLine("Нажмите Enter для выстрела: ");
+                string Enter = Console.ReadLine().ToLower();
+                if (Enter == "стоп")
+                {
+                    Console.WriteLine($"Выстрелов совершенно {a}");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Выстрел совершён");
+                    a++;
+                }
+            }
+        }
+    }
+}
         }
     }
 }
